@@ -1,1 +1,1 @@
-web: java -jar target/owl-ktor.jar
+web: java $JAVA_OPTS -jar app.jar

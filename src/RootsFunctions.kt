@@ -7,7 +7,7 @@ import io.ktor.routing.*
 
 fun Routing.helloWorld() {
     get("/") {
-        call.respondText("Hello, ktor!", contentType = ContentType.Text.Plain)
+        call.respondText("Hello, ktor1!", contentType = ContentType.Text.Plain)
     }
 
     get("/android") {
